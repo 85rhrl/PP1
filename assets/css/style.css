@@ -47,14 +47,32 @@ header a {
 
 /* Main content */
 main {
-    /* background-color: blueviolet; */
     /* Push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
-footer {
-    /* background-color: brown; */
+footer h3{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#social-links {
+    /* Remove bullet points */
+    list-style-type: none;
+    /* Make list horizontal */
+    display: flex;
+}
+
+#social-links li {
+    /* Add space between icons */
+    padding: 1rem;
+}
+
+#social-links i {
+    font-size: 300%;
+    text-decoration: none;
+    color: black;
 }
 
 footer h3 {
