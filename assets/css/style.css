@@ -21,6 +21,11 @@ header {
     background-color: aqua;
 }
 
+header a {
+    /* Remove underline */
+    text-decoration: none;
+}
+
 /* Main content */
 main {
     background-color: blueviolet;
