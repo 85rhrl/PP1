@@ -18,22 +18,41 @@ body {
 
 /* Header */
 header {
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+#menu {
+    float: left;
+    /* remove bullet points */
+    list-style-type: none;
+}
+
+#menu li {
+    /* Make list horizontal */
+    float: left;
+    margin-right: 1.5rem;
 }
 
 header a {
     /* Remove underline */
     text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.current {
+    /* Make current page underlined in Nav bar*/
+    text-decoration: underline;
 }
 
 /* Main content */
 main {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* Push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: brown;
+    /* background-color: brown; */
 }
