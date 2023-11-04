@@ -62,7 +62,7 @@ main {
 
 #welcome {
     /* Welcome message box with opacity */
-    background-color: rgba(99, 172, 95, .8);
+    background-color: rgba(99, 172, 95, .9);
     position: absolute;
     /* Use the center of the box */
     transform: translate(-50%, -50%);
@@ -86,15 +86,29 @@ main {
     padding: 0.5rem;
 }
 
+#food, #drinks, #desserts {
+    width: 20rem;
+}
+
 .menu-item-description {
     font-style: italic;
     font-size: 90%;
     margin-bottom: 0.5rem;
 }
 
-/* .item-price {
-    text-align: right;
-} */
+#food-drinks .item-name {
+    float: left;
+}
+
+#food-drinks .item-price {
+    float: right;
+}
+
+#food-drinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 #footer {
     background-color: coral;
@@ -104,7 +118,7 @@ main {
 }
 
 /* Footer */
-footer h3{
+footer h3 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -125,7 +139,7 @@ footer h3{
 #social-links i {
     font-size: 300%;
     text-decoration: none;
-    color:rgb(28, 28, 28);
+    color: rgb(28, 28, 28);
 }
 
 footer h3 {
@@ -134,17 +148,20 @@ footer h3 {
 
 /* When using tablets or larger displays */
 @media screen and (min-width: 768px) {
+
     /* move nav menu to the right */
     #menu {
         float: right;
     }
 
-    #footer {
-    justify-content: space-around;
-}
+    #footer,
+    #food-drinks {
+        justify-content: space-around;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+
     /* Make links underlined when hovering mouse */
     #menu li:hover {
         border: 2px solid black;
