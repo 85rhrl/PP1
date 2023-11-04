@@ -168,6 +168,15 @@ footer h3 {
     text-decoration: underline;
 }
 
+/* When using smartphone in landscape mode */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        /* remove gap between columns */
+        column-gap: 0;
+    }
+}
+
 /* When using tablets or larger displays */
 @media screen and (min-width: 768px) {
 
@@ -179,6 +188,17 @@ footer h3 {
     #footer,
     #food-drinks {
         justify-content: space-around;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* When using laptops and larger screens */
+@media screen and (min-width: 992px) {
+    #photos {
+        column-count: 4;
     }
 }
 
