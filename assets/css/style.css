@@ -23,7 +23,11 @@ header {
 }
 
 #logo {
-    font-size: 4em;
+    font-size: 4rem;
+}
+
+#taco-logo {
+    height: 4rem;
 }
 
 #menu {
