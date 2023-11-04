@@ -119,6 +119,12 @@ main {
     justify-content: space-between;
 }
 
+/* Gallery page */
+#photos img {
+    /* Avoid photos going wider than the screen */
+    width: 100%;
+}
+
 #footer {
     /* background-color: coral; */
     display: flex;
