@@ -14,11 +14,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(99, 172, 95);
 }
 
 /* Header */
 header {
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+#logo {
+    font-size: 4em;
 }
 
 #menu {
@@ -48,7 +53,7 @@ header a {
 
 /* Main content */
 main {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* Push footer down */
     flex: 1 0 auto;
 }
@@ -111,7 +116,7 @@ main {
 }
 
 #footer {
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
