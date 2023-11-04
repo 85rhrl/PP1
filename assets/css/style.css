@@ -125,6 +125,11 @@ main {
     width: 100%;
 }
 
+#photos {
+    /* remove blank space between photos */
+    line-height: 0;
+}
+
 #footer {
     /* background-color: coral; */
     display: flex;
