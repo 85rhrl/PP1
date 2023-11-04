@@ -123,6 +123,8 @@ main {
 #photos img {
     /* Avoid photos going wider than the screen */
     width: 100%;
+    /* Show alt text when images break */
+    line-height: 1rem;
 }
 
 #photos {
