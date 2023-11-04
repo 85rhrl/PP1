@@ -206,6 +206,7 @@ footer h3 {
 
     /* Make links underlined when hovering mouse */
     #menu li:hover {
-        border: 2px solid black;
+        /* border: 2px solid black; */
+        background-color: rgb(179, 255, 0);
     }
 }
