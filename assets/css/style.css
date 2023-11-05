@@ -146,6 +146,13 @@ main {
     justify-content: space-between;
 }
 
+/* Contact page */
+#book-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 /* Footer */
 footer h3 {
     margin-top: 1rem;

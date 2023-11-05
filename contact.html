@@ -42,44 +42,54 @@
     <!-- Main content -->
     <main>
         <section>
-            <div>
-                <form action="">
-                    <h2>Book a table</h2>
-                    <label for="date">Date:</label>
-                    <input type="date" id="date" name="date" required>
-                    <label for="time">Time:</label>
-                    <input type="time" id="time" name="time" required>
-                    <label for="people">People:</label>
-                    <select name="people" id="people" required>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select><br>
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" name="fullname" id="fullname" required>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
-                    <br>
-                    <label for="phone">Phone:</label>
-                    <input type="number" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
-                    <br>
-                    <label for="comment">Comment:</label>
-                    <br>
-                    <textarea name="comment" id="comment" placeholder="Any special request? Is it someone's birthday?" rows="5" cols="40"></textarea>
-                    <br>
-                    <button type="submit" value="submit">Book a table</button>
-                    <br>
-                    <input type="reset" value="Reset form">
-
-                </form>
+            <div id="book-map">
+                <div id="book-table">
+                    <form action="">
+                        <h2>Book a table</h2>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" required>
+                        <label for="people">People:</label>
+                        <select name="people" id="people" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" name="fullname" id="fullname" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <label for="phone">Phone:</label>
+                        <input type="number" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+                        <br>
+                        <label for="comment">Comment:</label>
+                        <br>
+                        <textarea name="comment" id="comment" placeholder="Any special request? Is it someone's birthday?" rows="5" cols="40"></textarea>
+                        <br>
+                        <button type="submit" value="submit">Book a table</button>
+                        <br>
+                        <input type="reset" value="Reset form">
+                    </form>
+                </div>
+                <div id="map-panel">
+                    <div id="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d161.72302732439476!2d10.88402975484887!3d49.56816558576328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2017351b5f621%3A0x3039f626c4d487f0!2sHauptstra%C3%9Fe%201%2C%2091074%20Herzogenaurach%2C%20Germany!5e0!3m2!1sen!2sus!4v1699202747063!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <h3>Address</h3>
+                    <p>
+                        Hauptstr. 1<br>91074 Herzogenaurach<br>Bayern<br>Germany
+                    </p>
+                </div>
             </div>
         </section>
     </main>
