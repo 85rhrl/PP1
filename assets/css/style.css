@@ -119,6 +119,13 @@ main {
     justify-content: space-between;
 }
 
+#bg-music {
+    /* Center the media player */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 /* Gallery page */
 #photos img {
     /* Avoid photos going wider than the screen */
