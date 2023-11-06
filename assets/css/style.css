@@ -89,10 +89,12 @@ main {
     font-size: 150%;
     padding: 2.5rem;
     text-align: center;
+    border-radius: 10px;
 }
 
 #welcome h2 {
     margin-bottom: 2rem;
+    letter-spacing: 10px;
 }
 
 .table-button {
@@ -101,6 +103,8 @@ main {
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 #tacos, #drinks, #desserts {
@@ -147,7 +151,7 @@ main {
 
 /* Gallery page */
 .gallery-table-button {
-    margin-left: 1rem
+    margin-left: 1rem;
 }
 
 #photos img {
