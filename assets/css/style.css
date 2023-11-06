@@ -178,10 +178,6 @@ main {
     padding: 0.5rem;
 }
 
-#book-table h2 {
-    /* margin-left: 0.5rem; */
-}
-
 #book-table label {
     margin: 0.5rem;
     line-height: 2rem;
@@ -269,7 +265,7 @@ footer h3 {
     }
 
     #map-panel {
-        width: 25rem;
+        width: 60rem;
     }
 }
 
