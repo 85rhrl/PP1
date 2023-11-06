@@ -19,15 +19,16 @@ body {
 
 /* Header */
 header {
-    /* background-color: aqua; */
+    /* background-color: white; */
 }
 
 #logo {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #taco-logo {
-    height: 4rem;
+    height: 3rem;
+    margin-top: 1rem;
 }
 
 #menu {
@@ -39,8 +40,7 @@ header {
     list-style-type: none;
     /* Make list horizontal */
     float: left;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 header a {
@@ -48,6 +48,14 @@ header a {
     text-decoration: none;
     letter-spacing: 2px;
     color: black;
+}
+
+header h1 {
+    /* Remove underline */
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    margin-left: 1rem;
 }
 
 .current {
@@ -97,20 +105,31 @@ main {
 
 #tacos, #drinks, #desserts {
     width: 20rem;
+    background-color: #FFD885;
+    border-radius: 5px;
+    /* Leave a gap to the edge of screen */
+    margin: 1rem;
+}
+
+#food-drinks h2 {
+    margin: 0.5rem;
 }
 
 .menu-item-description {
     font-style: italic;
     font-size: 90%;
     margin-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 #food-drinks .item-name {
     float: left;
+    margin-left: 1rem;
 }
 
 #food-drinks .item-price {
     float: right;
+    margin-right: 1rem;
 }
 
 #food-drinks {
@@ -127,6 +146,10 @@ main {
 }
 
 /* Gallery page */
+.gallery-table-button {
+    margin-left: 1rem
+}
+
 #photos img {
     /* Avoid photos going wider than the screen */
     width: 100%;
@@ -139,13 +162,6 @@ main {
     line-height: 0;
 }
 
-#footer {
-    /* background-color: coral; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 /* Contact page */
 #book-map {
     display: flex;
@@ -154,6 +170,14 @@ main {
 }
 
 /* Footer */
+#footer {
+    /* background-color: coral; */
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 footer h3 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
