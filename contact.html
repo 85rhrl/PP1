@@ -46,13 +46,14 @@
                 <div id="book-table">
                     <form action="">
                         <h2>Book a table</h2>
-                        <label for="date">Date:</label>
+                        <span>* Mandatory fields</span><br>
+                        <label for="date">*Date:</label>
                         <input type="date" id="date" name="date" required>
                         <br>
-                        <label for="time">Time:</label>
+                        <label for="time">*Time:</label>
                         <input type="time" id="time" name="time" required>
                         <br>
-                        <label for="people">People:</label>
+                        <label for="people">*People:</label>
                         <select name="people" id="people" required>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -65,16 +66,16 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                         </select><br>
-                        <label for="fullname">Full Name:</label>
+                        <label for="fullname">*Full Name:</label>
                         <input type="text" name="fullname" id="fullname" required>
                         <br>
-                        <label for="email">Email:</label>
+                        <label for="email">*Email:</label>
                         <input type="email" name="email" id="email" required>
                         <br>
-                        <label for="phone">Phone:</label>
+                        <label for="phone">*Phone:</label>
                         <input type="number" name="phone" id="phone" required>
                         <br>
-                        <label for="comment">Comment:</label>
+                        <label for="comment">Comments (optional):</label>
                         <br>
                         <textarea name="comment" id="comment" placeholder="Any special request? Is it someone's birthday?"></textarea>
                         <br>
