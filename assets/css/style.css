@@ -18,21 +18,21 @@ body {
 }
 
 /* Header */
-header {
-    /* background-color: white; */
-}
-
 #logo {
     font-size: 3rem;
 }
 
 #taco-logo {
-    height: 3rem;
+    height: 2rem;
     margin-top: 1rem;
 }
 
 #menu {
+    width: 100%;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    font-size: 130%;
 }
 
 #menu li {
@@ -40,7 +40,7 @@ header {
     list-style-type: none;
     /* Make list horizontal */
     float: left;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
 }
 
 header a {
@@ -58,6 +58,11 @@ header h1 {
     margin-left: 1rem;
 }
 
+#nav-menu {
+    display: flex;
+    align-items: flex-end;
+}
+
 .current {
     /* Make current page underlined in Nav bar*/
     text-decoration: underline;
@@ -65,7 +70,6 @@ header h1 {
 
 /* Main content */
 main {
-    /* background-color: blueviolet; */
     /* Push footer down */
     flex: 1 0 auto;
 }
@@ -117,6 +121,7 @@ main {
 
 #food-drinks h2 {
     margin: 0.5rem;
+    letter-spacing: 2px;
 }
 
 .menu-item-description {
@@ -139,7 +144,7 @@ main {
 #food-drinks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #bg-music {
@@ -151,7 +156,7 @@ main {
 
 /* Gallery page */
 .gallery-table-button {
-    margin-left: 1rem;
+    margin: 0.5rem;
 }
 
 #photos img {
@@ -222,16 +227,21 @@ main {
 
 /* Footer */
 #footer {
-    /* background-color: coral; */
     margin: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 120%;
+    font-weight: 500;
 }
 
 footer h3 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+#hours td {
+    padding-right: 1rem;
 }
 
 #social-links {
@@ -271,16 +281,19 @@ footer h3 {
     #map-panel {
         width: 60rem;
     }
+  
+    #menu {
+        width: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* When using tablets or larger displays */
 @media screen and (min-width: 768px) {
-
-    /* move nav menu to the right */
-    #menu {
-        float: right;
-    }
-
     #footer,
     #food-drinks {
         justify-content: space-around;
@@ -299,10 +312,8 @@ footer h3 {
 }
 
 @media screen and (min-width: 1024px) {
-
     /* Make links underlined when hovering mouse */
     #menu li:hover {
-        /* border: 2px solid black; */
         background-color: rgb(179, 255, 0);
     }
 }
