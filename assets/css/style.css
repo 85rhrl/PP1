@@ -43,6 +43,10 @@ body {
     margin: 0.5rem 1rem;
 }
 
+#menu li:hover {
+    background-color: rgb(179, 255, 0);
+}
+
 header a {
     /* Remove underline */
     text-decoration: none;
@@ -311,9 +315,9 @@ footer h3 {
     }
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     /* Make links underlined when hovering mouse */
     #menu li:hover {
         background-color: rgb(179, 255, 0);
     }
-}
+} */
