@@ -83,6 +83,7 @@ Testing was done on smartphones running Android and iOS, on a laptop screen as w
 This testing was of great use to make adjustments to the HTML and CSS code.
 
 On smaller screens the menu cards, gallery photos and goolgle map preview will sort out vertically for a better presentation.
+
 The navigation menu on top of every webpage will also move under the logo and expand horizontally for easier navigation.
 ![Navigation Menu on Smartphone](docs/images/testing-nav-menu-smartphone.png)
 
