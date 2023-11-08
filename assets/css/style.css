@@ -314,10 +314,3 @@ footer h3 {
         column-count: 4;
     }
 }
-
-/* @media screen and (min-width: 1024px) {
-    /* Make links underlined when hovering mouse */
-    #menu li:hover {
-        background-color: rgb(179, 255, 0);
-    }
-} */
