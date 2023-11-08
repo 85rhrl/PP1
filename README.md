@@ -8,4 +8,13 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
 
 ## Features
 
-The website consists
+### Existing Features
+
+- __Navigation Bar__
+
+  - Across the whole website there is a navigation bar on top which includes links to the Logo and Home which will take the user back to index.html, there is also a Gallery and Contact link.
+  - This navigation bar will adapt to the screen size to improve the User Experience.
+  - The Home, Gallery and Contact links have a green background when the mouse pointer hovers over them, this is to let the user know it is a clickable link.
+  - To let the user know in which page they currently are, the link is styled with an underline.
+
+  ![Nav Bar](docs/images/02-nav-bar.png)
