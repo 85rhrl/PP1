@@ -60,6 +60,8 @@ header h1 {
     letter-spacing: 2px;
     color: black;
     margin-left: 1rem;
+    /* Avoid "Tacos Herzo" wrapping into two lines */
+    white-space: nowrap;
 }
 
 #nav-menu {
