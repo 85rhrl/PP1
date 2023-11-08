@@ -78,3 +78,17 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
     - Implement a check to validate if there are enough tables/seats left.
 
 ## Testing
+
+Testing was done on smartphones running Android and iOS, on a laptop screen as well as a bigger monitor.
+This testing was of great use to make adjustments to the HTML and CSS code.
+
+On smaller screens the menu cards, gallery photos and goolgle map preview will sort out vertically for a better presentation.
+The navigation menu on top of every webpage will also move under the logo and expand horizontally for easier navigation.
+![Navigation Menu on Smartphone](docs/images/testing-nav-menu-smartphone.png)
+
+### Validator Testing
+
+- __HTML__
+    - The HTML code of all 3 pages was tested using the W3C Markup Validator and no errors were found.
+- __CSS__
+    - The CSS code was tested using the CSS Validation Service and no errors were found.
