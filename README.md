@@ -31,5 +31,21 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
     - On top of the Gallery there is a "Book a table" button so the user can make a reservation.
     - Photos of dishes and drinks served at Tacos Herzo are presented in the Gallery.
     - The Gallery adapts to diferent screen sizes to efficiently use the available screen space.
+    - The photos were resized and compressed to improve the performance of the website.
 
 ![Gallery](docs/images/04-gallery.png)
+
+- __Contact__
+    - This page allows the user to make a reservation for a Table using a form.
+    - To avoid errors with the reservation, the form requires the user to fill in mandatory fields.
+    - To help the user find Tacos Herzo, a map with the address of Tacos Herzo is displayed.
+    - The reservation form has an optional comments text box so the user can express their desire/request.
+
+![Contact](docs/images/05-contact.png)
+
+- __Footer__
+    - Useful information such as Address and Opening Hours are found on the footer.
+    - Social media link are also included to increase the user engagement.
+    - In order to retain the user, links to social media pages are opened in a new tab.
+
+![Footer](docs/images/06-footer.png)
