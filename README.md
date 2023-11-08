@@ -4,6 +4,8 @@ Tacos Herzo is a website for an imaginary Mexican food restaurant in the heart o
 The main purpose of the Tacos Herzo is to increase the number of table reservations for its restaurant.
 This is achieved by clearly presenting the dishes and drinks we serve in our Menu which is shown directly in the Homepage. As some people would like to see how our dishes are served, Tacos Herzo also shows pictures of the dishes in a gallery page.
 
+Visit the deployed page here: [https://85rhrl.github.io/PP1/index.html](https://85rhrl.github.io/PP1/index.html)
+
 ![Tacos Herzo in different screen sizes](docs/images/amiresponsive.png)
 
 ## Design
@@ -90,3 +92,31 @@ GitHub pages was used to deploy the project by following the steps described bel
 6. After some time the project will be deployed.
 
 The deployed project can be viewed here: [https://85rhrl.github.io/PP1/index.html](https://85rhrl.github.io/PP1/index.html)
+
+## Credits
+
+### Code
+The code used for the favicon and the photo gallery is based from the Love Running walkthrough project.
+
+The code used for the Google Map preview was taken from Google Maps.
+
+### Content
+The Taco emoji for the favicon was downloaded from [favicon.io](https://favicon.io/emoji-favicons/taco/) which in turn comes from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
+
+The social media icons used for the links in the footer were taken from [fontawesome.com](https://fontawesome.com/)
+
+The Dosis font was downloaded from [Google Fonts](https://fonts.google.com/specimen/Dosis)
+
+### Media
+
+The images for the landing page and for the gallery were downloaded from [Pexels](https://www.pexels.com/photo/cooked-food-on-blue-plate-2092507/) and [Unsplashed](https://unsplash.com/photos/selective-focus-photography-of-brown-labeled-bottle-mV67D45jFAs).
+
+The Backgound music is Produced by Fernando Laura and [Pomelo Records](https://www.youtube.com/watch?v=fAtyo7yXvFI&list=OLAK5uy_lKVsES4ic242zV_JElDgO6XHIgfkb9h3k)
+
+### Acknowledgements
+
+I would like to express my gratitude to the following people:
+
+- Jubril Akolade for mentoring me, giving me guidance and encouragement.
+- Kay Welfare for their continous help and encouragement.
+- My fellow classmates for their support and feedback.
