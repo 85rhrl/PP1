@@ -17,4 +17,13 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
   - The Home, Gallery and Contact links have a green background when the mouse pointer hovers over them, this is to let the user know it is a clickable link.
   - To let the user know in which page they currently are, the link is styled with an underline.
 
-  ![Nav Bar](docs/images/02-nav-bar.png)
+  ![Navigation Bar](docs/images/02-nav-bar.png)
+
+- __Home Page__
+
+  - The user is greeted with a Welcome message on top of a Taco dish hero image, below this welcome message there is a "Book a Table" button.
+  - The colors used for Tacos Herzo were inspired by the colors of some of the ingredients used in mexican dishes such as Lime, Avocado, Cilantro as well as Tortillas.
+  - Below the hero image, the user finds the menu cards for Tacos, Drinks and Desserts. This straight to the point approach was taken to improve user experience.
+  - The menu cards are written both in Spanish and English so there is no confussion.
+
+  ![Home Page](docs/images/03-hero-menu-bg.png)
