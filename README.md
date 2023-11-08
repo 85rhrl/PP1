@@ -40,7 +40,7 @@ Visit the deployed page here: [https://85rhrl.github.io/PP1/index.html](https://
 - __Home Page__
     - The user is greeted with a Welcome message on top of a Taco dish hero image, below this welcome message there is a "Book a Table" button.
     - Below the hero image, the user finds the menu cards for Tacos, Drinks and Desserts. This straight to the point approach was taken to improve user experience.
-    - The menu cards are written both in Spanish and English so there is no confussion.
+    - The menu cards are written both in Spanish and English for clarity.
     - Background music can be played using the audio player near the bottom of the Home Page. By default the music is stopped as it is considered Best Practice.
 
     ![Home Page](docs/images/03-hero-menu-bg.png)
@@ -48,7 +48,7 @@ Visit the deployed page here: [https://85rhrl.github.io/PP1/index.html](https://
 - __Gallery__
     - On top of the Gallery there is a "Book a table" button so the user can make a reservation.
     - Photos of dishes and drinks served at Tacos Herzo are presented in the Gallery.
-    - The Gallery adapts to diferent screen sizes to efficiently use the available screen space.
+    - The Gallery adapts to different screen sizes to efficiently use the available screen space.
     - The photos were resized and compressed to improve the performance of the website.
 
     ![Gallery](docs/images/04-gallery.png)
@@ -86,8 +86,8 @@ GitHub pages was used to deploy the project by following the steps described bel
     
 1. Go to the [github.com/85rhrl/PP1](https://github.com/85rhrl/PP1) repository.
 2. Click on the Setting tab on the top. ([github.com/85rhrl/PP1/settings](https://github.com/85rhrl/PP1/settings))
-3. Click the Pages link on the lefthand side menu. ([github.com/85rhrl/PP1/settings/pages](https://github.com/85rhrl/PP1/settings/pages))
-4. Select "Deploy from a branch" fror the Source dropdown menu.
+3. Click the Pages link on the left hand side menu. ([github.com/85rhrl/PP1/settings/pages](https://github.com/85rhrl/PP1/settings/pages))
+4. Select "Deploy from a branch" from the Source dropdown menu.
 5. Select "main" branch and press the "Save" button on the right.
 6. After some time the project will be deployed.
 
@@ -100,6 +100,8 @@ The code used for the favicon and the photo gallery is based from the Love Runni
 
 The code used for the Google Map preview was taken from Google Maps.
 
+The code for the message after submitting the Book a table form is based from a question posted on [Stackoverflow](https://stackoverflow.com/questions/24703584/onsubmit-alert-and-return-false-using-inline-js/24703650#24703650).
+
 ### Content
 The Taco emoji for the favicon was downloaded from [favicon.io](https://favicon.io/emoji-favicons/taco/) which in turn comes from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
 
@@ -111,12 +113,12 @@ The Dosis font was downloaded from [Google Fonts](https://fonts.google.com/speci
 
 The images for the landing page and for the gallery were downloaded from [Pexels](https://www.pexels.com/photo/cooked-food-on-blue-plate-2092507/) and [Unsplashed](https://unsplash.com/photos/selective-focus-photography-of-brown-labeled-bottle-mV67D45jFAs).
 
-The Backgound music is Produced by Fernando Laura and [Pomelo Records](https://www.youtube.com/watch?v=fAtyo7yXvFI&list=OLAK5uy_lKVsES4ic242zV_JElDgO6XHIgfkb9h3k)
+The Background music is Produced by Fernando Laura and [Pomelo Records](https://www.youtube.com/watch?v=fAtyo7yXvFI&list=OLAK5uy_lKVsES4ic242zV_JElDgO6XHIgfkb9h3k)
 
 ### Acknowledgements
 
 I would like to express my gratitude to the following people:
 
 - Jubril Akolade for mentoring me, giving me guidance and encouragement.
-- Kay Welfare for their continous help and encouragement.
+- Kay Welfare for their continuous help and encouragement.
 - My fellow classmates for their support and feedback.
