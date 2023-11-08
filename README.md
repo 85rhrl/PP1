@@ -66,7 +66,7 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
 
     ![Footer](docs/images/06-footer.png)
 
-### Future Left to Implement
+### Features Left to Implement
 
 - __Display booking confirmation__
     - Display a message so the user that their booking is confirmed.
