@@ -12,6 +12,24 @@ The navigation menu on top of every webpage will also move under the logo and ex
 
 - __HTML__
     - The HTML code of all 3 pages was tested using the W3C Markup Validator and no errors were found.
-    ![index]()
+
+        - Index
+
+            ![index](testing/W3C/html-index.png)
+
+        - Gallery
+
+             ![gallery](testing/W3C/html-gallery.png)
+
+        - Contact
+            ![contact](testing/W3C/html-contact.png)
+
 - __CSS__
     - The CSS code was tested using the CSS Validation Service and no errors were found.
+
+        - Style
+            ![style](testing/W3C/css-validated.png)
+
+### Lighthouse
+
+To check accesability and performance 
