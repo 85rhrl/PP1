@@ -180,6 +180,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    min-height: 50rem;
+    align-items: center;
 }
 
 #book-table, #map-panel {
