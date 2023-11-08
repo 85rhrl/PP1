@@ -9,7 +9,7 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
 ## Design
 
 - __Wireframes__
-    - Wireframes were generated using Balsamiq for Mobile, Tables and Larger screens.
+    - Wireframes were generated using Balsamiq for Mobile, Tablets and Larger screens.
     
     Homepage
     ![Homepage](docs/images/Wireframe-home.png)
