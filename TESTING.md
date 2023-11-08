@@ -2,7 +2,7 @@
 Testing was done on smartphones running Android and iOS, on a laptop screen as well as a bigger monitor using Chrome, Firefox and Safari.
 This testings were of great use to make adjustments to the HTML and CSS code. One example was that the screen of the iPhone 5 was to narrow so the Welcome Message (Bienvenidos) was too wide for it, so the message was adjusted.
 
-On smaller screens the menu cards, gallery photos and goolgle map preview will sort out vertically for a better presentation.
+On smaller screens the menu cards, gallery photos and Google map preview will sort out vertically for a better presentation.
 
 The navigation menu on top of every webpage will also move under the logo and expand horizontally for easier navigation. As seen on the following image:
 
