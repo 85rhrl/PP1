@@ -68,11 +68,8 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
 
 ### Features Left to Implement
 
-- __Display booking confirmation__
-    - Display a message so the user that their booking is confirmed.
-
 - __Block days and hours when Tacos Herzo is closed in Book a Table reservation form__
-    - This is to avoid getting reservations for when Tacos Herzo is closed.
+    - To avoid getting reservations for when Tacos Herzo is closed.
 
 - __Validate if reservation can be taken according to capacity__
     - Implement a check to validate if there are enough tables/seats left.
@@ -80,3 +77,16 @@ This is achieved by clearly presenting the dishes and drinks we serve in our Men
 ## Testing
 
 Several test were carried out, please refer to [TESTING.md](TESTING.md) for more information.
+
+## Deployment
+
+GitHub pages was used to deploy the project by following the steps described below:
+    
+1. Go to the [github.com/85rhrl/PP1](https://github.com/85rhrl/PP1) repository.
+2. Click on the Setting tab on the top. ([github.com/85rhrl/PP1/settings](https://github.com/85rhrl/PP1/settings))
+3. Click the Pages link on the lefthand side menu. ([github.com/85rhrl/PP1/settings/pages](https://github.com/85rhrl/PP1/settings/pages))
+4. Select "Deploy from a branch" fror the Source dropdown menu.
+5. Select "main" branch and press the "Save" button on the right.
+6. After some time the project will be deployed.
+
+The deployed project can be viewed here: [https://85rhrl.github.io/PP1/index.html](https://85rhrl.github.io/PP1/index.html)
