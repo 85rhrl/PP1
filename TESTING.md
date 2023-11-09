@@ -1,6 +1,7 @@
 # Tacos Herzo - Testing
-Testing was done on smartphones running Android and iOS, on a laptop screen as well as a bigger monitor using Chrome, Firefox and Safari.
-This testings were of great use to make adjustments to the HTML and CSS code. One example was that the screen of the iPhone 5 was to narrow so the Welcome Message (Bienvenidos) was too wide for it, so the message was adjusted.
+Testing was done on smartphones running Android and iOS, on a 15" screen laptop using Chrome, Firefox and Safari as well as on a 32" monitor.
+This testings were of great use to make adjustments to the HTML and CSS code. 
+One example was that the screen of the iPhone 5 was to narrow so the Welcome Message (Bienvenidos) was too wide for it, so the message was adjusted so it fits well.
 
 On smaller screens the menu cards, gallery photos and Google map preview will sort out vertically for a better presentation.
 
@@ -45,3 +46,11 @@ Lighthouse is an open-source automated tool to audit a page based on its Perform
 ![lighthouse-mobile-index](testing/lighthouse/mobile-index.png)
 ![lighthouse-mobile-gallery](testing/lighthouse/mobile-gallery.png)
 ![lighthouse-mobile-contact](testing/lighthouse/mobile-contact.png)
+
+### Manual Testing
+
+![manual-testing](testing/testing-table.png)
+
+### Unfixed Bugs
+
+No Bugs were left unfixed.
